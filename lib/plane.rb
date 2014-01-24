@@ -3,7 +3,8 @@
 class Plane
 
   def intialize
-  flying
+    flying
+  
   end
 
   def landed?
@@ -18,6 +19,13 @@ class Plane
     @landed = false
   end
 
-   
+  def flying
+    if @landed = false
+      return "status: Flying"
+    else
+      "status: Landed"
+    end
+  end
+
 
 end

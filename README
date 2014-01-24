@@ -1,0 +1,10 @@
+This is to control the flow of PLANES at an AIRPORT. 
+Planes can take off when the WEATHER is SUNNY but not when its STORMY.
+
+Create a set of classes and modules to pass the test suite at http://bit.ly/1dFD7f1
+
+A RANDOM NUMBER generator will be needed to set the weather. 
+
+Use a double to override random weather. 
+
+Every plane must have a status stating if its FLYING or LANDED. 

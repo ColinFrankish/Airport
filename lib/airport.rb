@@ -30,7 +30,7 @@ DEFAULT_CAPACITY = 10
     planes << plane if AirTraffic.weather == :sunny
   end
   def takeoff(plane)
-    planes.delete(plane)
+    planes.delete(plane) if AirTraffic.weather == :sunny
   end
   def full? 
     planescount == capacity

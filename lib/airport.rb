@@ -1,10 +1,10 @@
 #!usr/bin/ruby 
 require_relative 'airtraffic'
+#require_relative 'plane'
 class Airport
 
 # include AirTraffic
-  #let (:airport) {Airport.new(:capacity => 15)}
-  #let (:plane) {Plane.new}
+  
 
 DEFAULT_CAPACITY = 10
 
@@ -18,7 +18,9 @@ DEFAULT_CAPACITY = 10
   def capacity= (number)
     @capacity = number
   end
-
+  def hasplane(plane)
+    @planes = [1]
+  end
   def planes
     @planes ||= []
   end 

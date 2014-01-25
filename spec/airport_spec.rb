@@ -17,7 +17,7 @@ describe 'airport' do
     expect(airport.planescount).to eq(0)
   end
     it "should not allow a plane to take off if the weather is stormy" do
-      airport.dock(plane)
+      airport.hasplane(plane)
       expect(airport.planescount).to eq(1)
       AirTraffic.stub(:weather).and_return(:stormy)
       airport.takeoff(plane)

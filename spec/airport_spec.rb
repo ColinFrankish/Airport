@@ -37,6 +37,8 @@ describe 'airport' do
     airport.takeoff(plane)
     expect(airport.planescount).to eq(0)
   end
+  # the airport isn't full but you aren't even trying to land a plane,
+  # so the test name is misleading
   it "cannot land a plane if airport is full" do
     expect(airport).not_to be_full
   end

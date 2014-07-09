@@ -11,3 +11,5 @@ Every plane must have a status stating if its FLYING or LANDED.
 
 This project uses Rspec, Ruby and TDD, some pair programming was involved, though the project was completed alone over the weekend. 
 
+Some notes from tutor left regarding test error as reminders in TDD process. 
+

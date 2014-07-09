@@ -1,20 +1,11 @@
 require './lib/airtraffic'
 require './lib/plane'
 
-describe 'AirTraffic' do
- it "should know if the weather is stormy or sunny" do
+# describe 'AirTraffic' do
+#  it "should know if the weather is stormy or sunny" do
+#     self.weather.return_sunny or return_stormy
 
+  
+#   end
 
-  # it "a plane cannot take off if the weather is stormy" do
-    
-  #   weather = double :weather
-    
-  #   airport
-    
-  #   #the plane cannot take off
-
-  #   #expect 
-
-  end
-
-end
+# end

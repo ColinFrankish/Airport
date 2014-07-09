@@ -9,8 +9,5 @@ module AirTraffic
     # return stormy or sunny randomly
   end  
 
-  # def weather(conditions)
-  #  if weather = "stormy"
-
-  # end
+  
 end

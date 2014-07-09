@@ -8,3 +8,6 @@ A RANDOM NUMBER generator will be needed to set the weather.
 Use a double to override random weather. 
 
 Every plane must have a status stating if its FLYING or LANDED. 
+
+This project uses Rspec, Ruby and TDD, some pair programming was involved, though the project was completed alone over the weekend. 
+
